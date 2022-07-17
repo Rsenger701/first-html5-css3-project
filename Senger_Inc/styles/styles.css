@@ -1,0 +1,154 @@
+li{
+	color:rgb(255,255,255);
+	font-family: "Calibri";
+	list-style-type: none;
+	float: left;
+	margin-right: 10px;
+}
+nav {margin-top: -50px}
+li.current {
+	color:black;
+	background-color:grey;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	box-shadow: -2px -2px 0px 0px black;
+	-webkit-box-shadow: -2px -2px 0px 0px black;
+	-moz-box-shadow: -2px -2px 0px 0px black;
+	background-image: linear-gradient(
+		to bottom,
+		rgb(50,50,50) 0%,
+		rgb(75,75,75) 15%,
+		rgb(125,125,125) 50%);
+}
+li a{
+	display:block;
+	padding: 7px 15px 1px;
+	font-size: 1.3em;
+	font-weight: 700;
+	text-align: center;
+	text-decoration:none;
+}
+li a:link {color:white;}
+li a:visited {color:yellow;}
+li a:hover {
+	background-color:rgba(255,255,255,.3);
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	
+}
+li a:active {color:black;}
+main {clear:both;}
+.one {float:left;
+	height: 507px;
+	background-color: gray;
+	padding: 0px 10px;
+	font-family: "Arial"
+	}
+.three {
+	margin-bottom: -20px;
+	background-color: gray;
+	text-align: center;
+	}
+body {
+	background-color:rgb(0,0,0);
+	font-family: sans-serif;
+}
+header{
+	background-image: url(../assets/banner.png);
+	height: 300px;
+	background-repeat: repeat-x;
+	clear:both;
+}
+#wrapper{
+	margin: auto;
+	max-width: 1000px;
+}
+footer{
+	text-align: center;
+	color: white;
+	clear:both;
+}
+p {
+	max-width: 500px;
+	font-family: "Calibri";
+	font-size: 20px;
+}
+table {
+	border: solid 1px black;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	font-size: 1.4em;
+	padding: 5px;
+}
+td{
+	border: solid 1px black;
+	padding: 2px;
+	font-weight: 600;
+}
+th{ background-color: rgb(100,100,100);
+	color:white;
+	padding: 2px;
+	font-weight: 700;
+}
+
+.other_row {background-color: rgb(200,200,200);}
+
+h1 {
+	font-family: arial;
+	color: black;
+	font-weight: 400;
+	text-align: center;
+}
+
+form {
+	margin: 25px auto;
+	width: 75%;
+	background: grey;
+	padding: 25px;
+	padding-bottom: 50px;
+}
+
+input, textarea {
+	width: calc(100% - 18px);
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid black;
+}
+
+input::placeholder {
+	color: #000;
+}
+button {
+		width: 50%;
+		float: left;
+		margin-bottom: 20px;
+		background-color: rgb(230,230,230);
+		border: no;
+		font-size: 20px;
+}
+button:hover{
+	background-color: yellow;
+}
+.four {
+	clear: both;
+	height: 2450px;
+	background-color: gray;
+	padding: 0px 300px;
+	font-family: "Arial";
+	text-align: center;
+	}
+h2 {
+	font-size: 2em;
+	padding: 20px;
+}
+figcaption {
+	font-weight: 600;
+	font-size: 1.4em;
+	padding: 10px;
+}
+image {
+	padding: 20px;
+}
+a:link {color:white;}
+a:visited {color:yellow;}
